@@ -3,14 +3,6 @@ variable "region" {
   description = "Instance Region"
   default     = "ap-south-1"
 }
-variable "access_key" {
-  type    = string
-  default = "AKIA2V2TYBAT7TDHKV7O"
-}
-variable "secret_key" {
-  type    = string
-  default = "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"
-}
 variable "cidr_block" {
   description = "cidr Block for VPC"
   type        = string
